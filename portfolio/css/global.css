@@ -1,0 +1,245 @@
+/* ============================================
+   style-global.css
+   Styles communs à toutes les pages
+   Version masculine & percutante
+   ============================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    background: #0f0f1a;
+    color: #e0e0e0;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* ---- NAVIGATION ---- */
+.chic-nav {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1.5rem 0;
+    border-bottom: 2px solid #e94560;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.chic-nav a {
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8888aa;
+    padding: 0.25rem 0.5rem;
+    transition: 0.3s;
+    font-weight: 600;
+    border-bottom: 3px solid transparent;
+}
+
+.chic-nav a:hover {
+    color: #ffffff;
+    border-bottom-color: #e94560;
+}
+
+.chic-nav a.active {
+    color: #ffffff;
+    border-bottom-color: #e94560;
+}
+
+/* ---- CARTES ---- */
+.card-chic {
+    background: #1a1a2e;
+    padding: 2.5rem 3rem;
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    border: 1px solid #2a2a4a;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    width: 100%;
+    position: relative;
+}
+
+.card-chic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: #e94560;
+    border-radius: 16px 0 0 16px;
+}
+
+/* ---- TITRES ---- */
+h1 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    color: #ffffff;
+    border-bottom: 2px solid #2a2a4a;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    margin-top: 1.8rem;
+    margin-bottom: 0.8rem;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #8888aa;
+    margin-bottom: 2rem;
+}
+
+/* ---- SÉPARATEUR ---- */
+.separator {
+    width: 60px;
+    height: 3px;
+    background: #e94560;
+    margin: 1.5rem auto;
+    border-radius: 2px;
+}
+
+/* ---- BOUTONS ---- */
+.btn-download {
+    display: inline-block;
+    background: #e94560;
+    color: #ffffff;
+    padding: 0.8rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 15px rgba(233, 69, 96, 0.3);
+}
+
+.btn-download:hover {
+    background: #c73652;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(233, 69, 96, 0.5);
+}
+
+/* ---- TÉLÉCHARGEMENT ACCUEIL ---- */
+.flex-download {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.download-item {
+    background: #1e1e3a;
+    padding: 1.2rem 2.2rem;
+    border-radius: 10px;
+    border: 1px solid #2a2a4a;
+    transition: 0.3s;
+}
+
+.download-item:hover {
+    background: #2a2a4a;
+    border-color: #e94560;
+    transform: translateY(-3px);
+}
+
+.download-item a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.1rem;
+    color: #e0e0e0;
+}
+
+.download-item:hover a {
+    color: #ffffff;
+}
+
+.icon-text {
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
+/* ---- FOOTER ---- */
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding-top: 2rem;
+    color: #555577;
+    font-size: 0.85rem;
+    border-top: 1px solid #1e1e3a;
+}
+
+/* ---- CLASSES UTILITAIRES ---- */
+.accueil-texte {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.accueil-texte p {
+    font-size: 1.05rem;
+    color: #bbbbdd;
+}
+
+.info-pdf {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #555577;
+}
+
+.cv-download,
+.letter-download {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.cv-update,
+.letter-update {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #555577;
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 600px) {
+    .card-chic {
+        padding: 1.8rem;
+    }
+
+    .chic-nav {
+        gap: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}

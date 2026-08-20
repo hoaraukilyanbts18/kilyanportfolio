@@ -1,0 +1,42 @@
+/* ============================================
+   page-acceuil.css
+   ============================================ */
+
+.card-chic {
+    background: #1a1a2e;
+    border-color: #2a2a4a;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.subtitle {
+    color: #8888aa;
+}
+
+.download-item {
+    background: #1e1e3a;
+    border-color: #2a2a4a;
+}
+
+.download-item:hover {
+    background: #2a2a4a;
+    border-color: #e94560;
+}
+
+.download-item a {
+    color: #e0e0e0;
+}
+
+.download-item:hover a {
+    color: #ffffff;
+}
+
+.accueil-texte p {
+    color: #bbbbdd;
+}
+
+.info-pdf {
+    color: #555577;
+}
