@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veille Technologique · Cybersécurité France</title>
+
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/veillecss.css" />
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="chic-nav">
+            <a href="index.html">Accueil</a>
+            <a href="cv.html">CV</a>
+            <a href="lettre de motivation.html">Lettre</a>
+            <a href="veille.html" class="active">Veille</a>
+        </nav>
+
+        <!-- Contenu Veille -->
+        <div class="card-chic veille-card">
+            <h1>🛡️ Veille <span>Technologique</span></h1>
+            <p class="subtitle">Cybersécurité en France · Flux automatique</p>
+
+            <!-- Statut de mise à jour -->
+            <div class="update-status">
+                <span class="status-dot" id="statusDot"></span>
+                <span id="updateInfo">Chargement des actualités...</span>
+            </div>
+
+            <!-- Articles -->
+            <div class="veille-grid" id="veilleGrid">
+                <div class="loading-message">
+                    <p>⏳ Chargement des actualités en temps réel...</p>
+                </div>
+            </div>
+
+            <!-- Sources -->
+            <div class="veille-footer">
+                <p>📡 Sources : ANSSI, CNIL, Gouvernement.fr, LeMonde, ZDNet, LeFigaro, BFM, Numerama</p>
+                <br>
+                <p class="update-note">🔄 Mise à jour automatique toutes les 72 heures</p>
+                <p style="font-size: 0.8rem; margin-top: 0.5rem; color: #3a3a5a;">
+                    ⚡ Les données sont stockées localement et mises à jour automatiquement
+                </p>
+            </div>
+        </div>
+
+        <footer>
+            <span>✧ 2026 · veille &amp; cybersécurité ✧</span>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="jv/veillejv.js"></script>
+</body>
+</html>
