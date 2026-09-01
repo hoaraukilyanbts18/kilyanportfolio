@@ -1,0 +1,124 @@
+/* ============================================
+   STYLES SPÉCIFIQUES VEILLE
+   ============================================ */
+
+/* ---- STATISTIQUES VEILLE ---- */
+.veille-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 0;
+}
+
+.veille-stat {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 1.5rem 1rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.veille-stat:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(33, 31, 27, 0.06);
+}
+
+.veille-stat-number {
+  display: block;
+  font-family: var(--serif);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1.2;
+}
+
+.veille-stat-label {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+/* ---- INTRODUCTION VEILLE ---- */
+.veille-intro {
+  margin-top: 2.5rem;
+  padding: 2rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  border-left: 4px solid var(--accent);
+}
+
+.veille-intro h3 {
+  font-family: var(--sans);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--ink);
+}
+
+.veille-intro p {
+  color: var(--ink-soft);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.veille-intro p strong {
+  color: var(--accent);
+}
+
+.veille-intro-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+/* ---- MESSAGE AUCUN ARTICLE ---- */
+.no-articles {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem 0;
+  color: var(--ink-faint);
+}
+
+.no-articles p {
+  margin: 0.3rem 0;
+}
+
+/* ---- RESPONSIVE VEILLE ---- */
+@media (max-width: 768px) {
+  .veille-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .veille-stat {
+    padding: 1rem;
+  }
+
+  .veille-stat-number {
+    font-size: 1.8rem;
+  }
+
+  .veille-intro {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .veille-stats {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+  }
+
+  .veille-stat {
+    padding: 0.8rem;
+  }
+
+  .veille-stat-number {
+    font-size: 1.5rem;
+  }
+
+  .veille-stat-label {
+    font-size: 0.75rem;
+  }
+}

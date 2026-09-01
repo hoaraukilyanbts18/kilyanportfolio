@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veille technologique · Kilyan Hoarau</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="index.html">Kilyan Hoarau</a>
+    <nav class="nav" id="siteNav">
+      <a href="index.html">Accueil</a>
+      <a href="cv.html">CV</a>
+      <a href="lettre.html">Lettre de motivation</a>
+      <a href="veille.html" class="active">Veille</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<div class="page-head wide">
+  <p class="kicker">Veille technologique</p>
+  <h1>IA &amp; développement</h1>
+  <p class="lede">Copilotes de code, IA générative : outils, risques et réglementation à suivre.</p>
+</div>
+
+<section class="section" style="padding-top:0;">
+  <div class="section-inner wide">
+
+    <div class="filters" id="filters" role="group" aria-label="Filtrer par catégorie">
+      <button class="filter-btn is-active" data-filter="tout">Tout</button>
+      <button class="filter-btn" data-filter="outil">Outils</button>
+      <button class="filter-btn" data-filter="etude">Études</button>
+      <button class="filter-btn" data-filter="risque">Risques</button>
+      <button class="filter-btn" data-filter="reglementation">Réglementation</button>
+    </div>
+
+    <div class="veille-grid" id="veilleGrid">
+      <!-- généré par JavaScript à partir de js/veille-data.js -->
+    </div>
+
+    <div class="veille-meta" id="veilleMeta"></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  © 2026 Kilyan Hoarau · <a href="mailto:hoaraukilyanbts18@gmail.com">hoaraukilyanbts18@gmail.com</a>
+</footer>
+
+<script src="js/veille-data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  (function () {
+    const grid = document.getElementById('veilleGrid');
+    const meta = document.getElementById('veilleMeta');
+    const filters = document.getElementById('filters');
+
+    function tagClass(category) {
+      return {
+        outil: 'tag-outil',
+        etude: 'tag-etude',
+        risque: 'tag-risque',
+        reglementation: 'tag-reglementation'
+      }[category] || 'tag-outil';
+    }
+
+    function render(filter) {
+      grid.innerHTML = '';
+      const items = VEILLE_ITEMS.filter(item => filter === 'tout' || item.category === filter);
+
+      items.forEach(item => {
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.innerHTML = `
+          <div class="card-top">
+            <span class="dot-tag ${tagClass(item.category)}">${item.label}</span>
+            <span class="card-date">${item.date}</span>
+          </div>
+          <h3>${item.title}</h3>
+          <p>${item.summary}</p>
+          <a class="card-source" href="${item.url}" target="_blank" rel="noopener">↗ ${item.source}</a>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    filters.addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      filters.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+      render(btn.dataset.filter);
+    });
+
+    meta.innerHTML = `<strong>Dernière relecture manuelle :</strong> ${VEILLE_LAST_UPDATE} · Sources suivies : Commission européenne, Mistral AI, GitHub, OWASP, Cloud Security Alliance, Checkmarx, Pradeo.`;
+
+    render('tout');
+  })();
+</script>
+</body>
+</html>
