@@ -27,13 +27,14 @@
   <p class="lede">Copilotes de code, IA générative : outils, risques et réglementation à suivre.</p>
 </div>
 
-  <div id="veille-ia-widget" style="min-height:200px;"></div>
-  <p style="text-align:center;font-size:12px;">
-    <a href="#" id="veille-secours-lien" style="color:#89b4fa;">Afficher la version de secours (RSS)</a>
-  </p>
+<!-- Conteneur du widget : c'est lui qui manquait, d'où l'erreur "Cannot set properties of null" -->
+<div id="veille-ia-widget" style="min-height:200px;"></div>
+<p style="text-align:center;font-size:12px;margin-top:8px;">
+  <a href="#" id="veille-secours-lien" style="color:#89b4fa;">Afficher la version de secours (RSS)</a>
+</p>
 
-  <!-- =====script de la veille  ===== -->
-  <script>
+<!-- ===== Script de la veille ===== -->
+<script>
 (function () {
   var VEILLE_URL = "https://hoaraukilyanbts18.github.io/kilyanportfolio/veille-ia.html";
   var GH_OWNER   = "hoaraukilyanbts18";
@@ -41,6 +42,7 @@
   var RSS_PATH   = "rss";
 
   var box = document.getElementById("veille-ia-widget");
+  if (!box) return; // sécurité supplémentaire si l'id venait à changer
 
   function afficherRSS(motif) {
     box.innerHTML = '<div style="padding:16px;font-family:sans-serif;font-size:12px;color:#f9e2af;">⚠️ ' + motif + ' — chargement du flux RSS de secours…</div>';
@@ -68,7 +70,7 @@
         box.innerHTML = html;
       })
       .catch(function () {
-        box.innerHTML = '<div style="padding:16px;color:#f38ba8;font-size:12px;">Veille indisponible pour le moment (site et RSS inaccessibles).</div>';
+        box.innerHTML = '<div style="padding:16px;color:#f38ba8;font-size:12px;">Veille indisponible pour le moment (site et flux RSS inaccessibles).</div>';
       });
   }
 
@@ -91,7 +93,7 @@
       iframe.style.height = doc.body.scrollHeight + "px";
       box.style.border = "none";
     } catch (e) {
-      // domaine différent : impossible de lire le contenu, on garde l'iframe telle quelle
+      // Domaine différent : impossible de lire le contenu, on garde l'iframe telle quelle
       iframe.style.height = "1600px";
     }
   };
@@ -100,13 +102,15 @@
   box.innerHTML = "";
   box.appendChild(iframe);
 
-  document.getElementById("veille-secours-lien").onclick = function (e) {
-    e.preventDefault();
-    afficherRSS("Basculé manuellement");
-  };
+  var lienSecours = document.getElementById("veille-secours-lien");
+  if (lienSecours) {
+    lienSecours.onclick = function (e) {
+      e.preventDefault();
+      afficherRSS("Basculé manuellement");
+    };
+  }
 })();
 </script>
-  
 
 </body>
 </html>
