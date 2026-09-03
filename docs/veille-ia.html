@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!-- ts:20260903073632 -->
+<meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Veille Technologique IA</title>
+<style>
+:root{--bg:#1e1e2e;--surf:#181825;--ov:#313244;--txt:#cdd6f4;--sub:#a6adc8;--brd:#45475a;--blue:#89b4fa;--grn:#a6e3a1;--yel:#f9e2af;--red:#f38ba8;}
+body{font-family:Arial,sans-serif;background:var(--bg);color:var(--txt);margin:0;padding:0;font-size:13px;}
+
+*{box-sizing:border-box}
+body{margin:0;padding:0}
+.maj-date{color:var(--sub);font-size:12px;margin:10px 20px 0;display:block}
+hr{border:none;border-top:1px solid var(--brd);margin:6px 20px 16px}
+.sujet-block{border-bottom:2px solid var(--brd)}
+.sujet-header{width:100%;display:flex;align-items:center;gap:12px;background:var(--ov);color:var(--txt);border:none;padding:16px 20px;cursor:pointer;text-align:left;transition:background .15s;border-left:4px solid var(--blue);}
+.sujet-header:hover{filter:brightness(1.12)}
+.sujet-title{font-weight:700;font-size:16px;flex:1;color:var(--blue)}
+.sujet-count{font-size:12px;color:var(--sub);background:var(--bg);padding:2px 12px;border-radius:12px}
+.sujet-arrow{font-size:13px;color:var(--sub);margin-left:8px}
+.sujet-body{padding:0 0 8px 0}
+.session-block{border-bottom:1px solid var(--brd)}
+.session-header{width:100%;display:flex;align-items:center;gap:10px;background:var(--surf);color:var(--txt);border:none;padding:11px 20px 11px 32px;cursor:pointer;text-align:left;transition:background .15s;}
+.session-header:hover{background:var(--ov)}
+.session-date{font-weight:600;font-size:13px}
+.session-meta{font-size:12px;color:var(--sub);flex:1}
+.sess-arrow{font-size:11px;color:var(--sub)}
+.badge-new{background:#a6e3a1;color:#1e1e2e;font-size:10px;padding:1px 7px;border-radius:8px;font-weight:700}
+.synth-box{margin:14px 14px 10px 32px;padding:14px 16px;background:linear-gradient(135deg,var(--bg),var(--surf));border-left:4px solid var(--yel);border-radius:8px;}
+.synth-title{font-size:13px;font-weight:700;color:var(--yel);margin-bottom:10px}
+.synth-body{font-size:13px;color:var(--txt)}
+.articles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px;padding:12px 14px 14px 32px;}
+.art-card{background:var(--surf);border:1px solid var(--brd);border-radius:8px;padding:12px 14px;transition:border-color .15s;}
+.art-card:hover{border-color:var(--blue)}
+.art-title{color:var(--blue);font-size:13px;font-weight:600;text-decoration:none;line-height:1.4;display:block;margin-bottom:6px;}
+.art-title:hover{text-decoration:underline}
+.art-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.art-dom{font-size:11px;color:var(--sub)}
+.art-score{font-size:11px;padding:1px 8px;border-radius:10px;font-weight:700}
+.score-hi{background:rgba(166,227,161,.2);color:#a6e3a1}
+.score-mid{background:rgba(249,226,175,.2);color:#f9e2af}
+.score-lo{background:rgba(243,139,168,.2);color:#f38ba8}
+.art-pts{margin:0;padding-left:16px;font-size:12px;color:var(--sub);line-height:1.6}
+.art-pts li{margin:2px 0}
+.badge-doublon{font-size:10px;background:rgba(249,226,175,.2);color:#f9e2af;border:1px solid #f9e2af;padding:1px 6px;border-radius:6px;margin-left:6px;}
+
+</style>
+</head>
+<body>
+<div style="padding:16px 20px 4px;background:var(--surf);border-bottom:1px solid var(--brd);">
+    <h1 style="margin:0;font-size:20px;color:var(--blue);">🔭 Veille Technologique IA</h1>
+</div>
+<span class='maj-date'>Dernière mise à jour : 03/09/2026</span><hr>
+        <div class="sujet-block">
+            <button class="sujet-header" onclick="toggleSujet('lavancement-du-devellopement-web-et-jeux')">
+                <span class="sujet-title">📂 Lavancement Du Devellopement Web Et Jeux</span>
+                <span class="sujet-count">1 session(s) · 1 articles</span>
+                <span id="sujet-arrow-lavancement-du-devellopement-web-et-jeux" class="sujet-arrow">▲</span>
+            </button>
+            <div id="sujet-body-lavancement-du-devellopement-web-et-jeux" class="sujet-body" style="display:block">
+                
+        <div class="session-block">
+            <button class="session-header" onclick="toggleSession('sess-lavancement-du-devellopement-web-et-jeux-0')">
+                <span class="session-date">📅 03/09/2026</span>
+                <span class="session-meta">1 articles <span class='badge-new'>NOUVEAU</span></span>
+                <span id="arr-sess-lavancement-du-devellopement-web-et-jeux-0" class="sess-arrow">▲</span>
+            </button>
+            <div id="sess-lavancement-du-devellopement-web-et-jeux-0" style="display:block"><div class="articles-grid">
+                <div class="art-card">
+                    <a href="https://arxiv.org/abs/2609.02057" target="_blank" class="art-title">Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision</a>
+                    
+                    <div class="art-meta">
+                        <span class="art-dom">arxiv.org</span>
+                        <span class="art-score score-mid">65</span>
+                    </div>
+                    <ul class='art-pts'><li>arXiv:2609.02057v1 Announce Type: new 
+Abstract: Reliable web-agent monitoring is difficult when model-internal uncertainty signals such as token logits are unavailable.</li><li>In this work, we study prefix-level risk prediction for web agents using observable trajectory signals: given an evolving prefix, estimate whether the current execution remains on track or is tending toward failure.</li><li>We derive two observable trajectory representations: Macro features summarize cross-step agent--environment behavior and feedback, while Micro features measure the consistency of intention, action, and anticipated state change through repeated black-box queries.</li></ul>
+                </div></div></div></div>
+            </div>
+        </div>
+<p style="text-align:center;font-size:11px;color:var(--brd);padding:20px;">
+    Mis à jour le 03/09/2026 — Veille technologique automatisée
+</p>
+<script>
+function toggleSujet(id){
+    var b=document.getElementById('sujet-body-'+id);
+    var a=document.getElementById('sujet-arrow-'+id);
+    if(!b)return;
+    var open=b.style.display!=='none';
+    b.style.display=open?'none':'block';
+    if(a)a.textContent=open?'▼':'▲';
+}
+function toggleSession(id){
+    var el=document.getElementById(id);
+    var ar=document.getElementById('arr-'+id);
+    if(!el)return;
+    var open=el.style.display!=='none';
+    el.style.display=open?'none':'block';
+    if(ar)ar.textContent=open?'▼':'▲';
+}
+</script>
+
+<!--VEILLE_DATA:{"lavancement du devellopement web et jeux": [{"date": "03/09/2026", "articles": [{"href": "https://arxiv.org/abs/2609.02057", "score": 65, "title": "Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision", "resume_ollama": ["arXiv:2609.02057v1 Announce Type: new \nAbstract: Reliable web-agent monitoring is difficult when model-internal uncertainty signals such as token logits are unavailable.", "In this work, we study prefix-level risk prediction for web agents using observable trajectory signals: given an evolving prefix, estimate whether the current execution remains on track or is tending toward failure.", "We derive two observable trajectory representations: Macro features summarize cross-step agent--environment behavior and feedback, while Micro features measure the consistency of intention, action, and anticipated state change through repeated black-box queries.", "Instead of inheriting the final result label, we label the first critical error that remains uncorrected in the observed continuation and is associated with final failure as a key-step boundary, preserving valid early prefixes of failed trajectories as on track."], "date_recherche": "03/09/2026"}], "resume_global": "Erreur Groq (401)"}]}:END_VEILLE_DATA-->
+
+</body></html>
