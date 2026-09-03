@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Veille IA - Lavancement Du Devellopement Web Et Jeux</title>
+    <link>https://github.com/hoaraukilyanbts18/kilyanportfolio</link>
+    <description>Veille technologique automatisee sur : lavancement du devellopement web et jeux</description>
+    <language>fr</language>
+    <lastBuildDate>Thu, 03 Sep 2026 07:49:06 +0000</lastBuildDate>
+    <pubDate>Thu, 03 Sep 2026 07:49:06 +0000</pubDate>
+  <item>
+    <title>Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision</title>
+    <link>https://arxiv.org/abs/2609.02057</link>
+    <description>arXiv:2609.02057v1 Announce Type: new 
+Abstract: Reliable web-agent monitoring is difficult when model-internal uncertainty signals such as token logits are unavailable. In this work, we study prefix-</description>
+    <pubDate>Thu, 03 Sep 2026 07:49:06 +0000</pubDate>
+    <guid isPermaLink="true">https://arxiv.org/abs/2609.02057</guid>
+  </item>
+  </channel>
+</rss>
