@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<!-- ts:20260903074906 -->
+<!-- ts:20260929041859 -->
 <meta http-equiv="Cache-Control" content="no-cache,no-store,must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Veille Technologique IA</title>
 <style>
-:root{--bg:#1e1e2e;--surf:#181825;--ov:#313244;--txt:#cdd6f4;--sub:#a6adc8;--brd:#45475a;--blue:#89b4fa;--grn:#a6e3a1;--yel:#f9e2af;--red:#f38ba8;}
+:root{--bg:#f8f9fa;--surf:#ffffff;--ov:#e9ecef;--txt:#212529;--sub:#6c757d;--brd:#dee2e6;--blue:#0d6efd;--grn:#198754;--yel:#e67e00;--red:#dc3545;}
 body{font-family:Arial,sans-serif;background:var(--bg);color:var(--txt);margin:0;padding:0;font-size:13px;}
 
 *{box-sizing:border-box}
@@ -54,7 +54,7 @@ hr{border:none;border-top:1px solid var(--brd);margin:6px 20px 16px}
 <div style="padding:16px 20px 4px;background:var(--surf);border-bottom:1px solid var(--brd);">
     <h1 style="margin:0;font-size:20px;color:var(--blue);">🔭 Veille Technologique IA</h1>
 </div>
-<span class='maj-date'>Dernière mise à jour : 03/09/2026</span><hr>
+<span class='maj-date'>Dernière mise à jour : 29/09/2026</span><hr>
         <div class="sujet-block">
             <button class="sujet-header" onclick="toggleSujet('lavancement-du-devellopement-web-et-jeux')">
                 <span class="sujet-title">📂 Lavancement Du Devellopement Web Et Jeux</span>
@@ -82,8 +82,43 @@ Abstract: Reliable web-agent monitoring is difficult when model-internal uncerta
                 </div></div></div></div>
             </div>
         </div>
+        <div class="sujet-block">
+            <button class="sujet-header" onclick="toggleSujet('cybersecuriter-france')">
+                <span class="sujet-title">📂 Cybersecuriter France</span>
+                <span class="sujet-count">1 session(s) · 2 articles</span>
+                <span id="sujet-arrow-cybersecuriter-france" class="sujet-arrow">▼</span>
+            </button>
+            <div id="sujet-body-cybersecuriter-france" class="sujet-body" style="display:none">
+                
+        <div class="session-block">
+            <button class="session-header" onclick="toggleSession('sess-cybersecuriter-france-0')">
+                <span class="session-date">📅 29/09/2026</span>
+                <span class="session-meta">2 articles <span class='badge-new'>NOUVEAU</span></span>
+                <span id="arr-sess-cybersecuriter-france-0" class="sess-arrow">▲</span>
+            </button>
+            <div id="sess-cybersecuriter-france-0" style="display:block"><div class="articles-grid">
+                <div class="art-card">
+                    <a href="https://www.riskintel.fr/articles/ia-et-cybersecurite-en-2026-attaques-plus-rapides-defenses-augmentees-ce-qui-change-vraiment" target="_blank" class="art-title">IA et cybersécurité en 2026 : attaques plus rapides, défenses ...</a>
+                    
+                    <div class="art-meta">
+                        <span class="art-dom">www.riskintel.fr</span>
+                        <span class="art-score score-mid">75</span>
+                    </div>
+                    <ul class='art-pts'><li>L'intelligence artificielle transforme déjà profondément la cybersécurité.</li><li>Mais selon les experts, nous sommes seulement au début d'un changement beaucoup plus radical : automatisation des attaques, agents IA offensifs, défense augmentée, nouvelles vulnérabilités… le secteur entre dans une nouvelle ère.</li><li>Dans cette émission consacrée à l'IA appliquée à la cybersécurité, Éric Antibi, directeur technique France chez Palo Alto Networks, revient sur les mutations en cours et explique pourquoi les entreprises doivent désormais penser leur cyberdéfense différemment.</li></ul>
+                </div>
+                <div class="art-card">
+                    <a href="https://tech-insider.org/fr/plan-cybersecurite-ia-ue-2026/" target="_blank" class="art-title">Plan Cybersécurité-IA UE 2026 : 80 % de Phishing par IA</a>
+                    
+                    <div class="art-meta">
+                        <span class="art-dom">tech-insider.org</span>
+                        <span class="art-score score-mid">55</span>
+                    </div>
+                    <ul class='art-pts'><li>Jul 31, 2026 · La Commission européenne publie son plan d'action cybersécurité-IA le 7 juillet 2026.</li><li>ANSSI, ENISA, NIS2 : ce qui change pour la France et l'Europe.</li></ul>
+                </div></div></div></div>
+            </div>
+        </div>
 <p style="text-align:center;font-size:11px;color:var(--brd);padding:20px;">
-    Mis à jour le 03/09/2026 — Veille technologique automatisée
+    Mis à jour le 29/09/2026 — Veille technologique automatisée
 </p>
 <script>
 function toggleSujet(id){
@@ -104,6 +139,6 @@ function toggleSession(id){
 }
 </script>
 
-<!--VEILLE_DATA:{"lavancement du devellopement web et jeux": [{"date": "03/09/2026", "articles": [{"href": "https://arxiv.org/abs/2609.02057", "score": 65, "title": "Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision", "resume_ollama": ["arXiv:2609.02057v1 Announce Type: new \nAbstract: Reliable web-agent monitoring is difficult when model-internal uncertainty signals such as token logits are unavailable.", "In this work, we study prefix-level risk prediction for web agents using observable trajectory signals: given an evolving prefix, estimate whether the current execution remains on track or is tending toward failure.", "We derive two observable trajectory representations: Macro features summarize cross-step agent--environment behavior and feedback, while Micro features measure the consistency of intention, action, and anticipated state change through repeated black-box queries.", "Instead of inheriting the final result label, we label the first critical error that remains uncorrected in the observed continuation and is associated with final failure as a key-step boundary, preserving valid early prefixes of failed trajectories as on track."], "date_recherche": "03/09/2026"}], "resume_global": "Erreur Groq (401)"}]}:END_VEILLE_DATA-->
+<!--VEILLE_DATA:{"lavancement du devellopement web et jeux": [{"date": "03/09/2026", "articles": [{"href": "https://arxiv.org/abs/2609.02057", "score": 65, "title": "Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision", "resume_ollama": ["arXiv:2609.02057v1 Announce Type: new \nAbstract: Reliable web-agent monitoring is difficult when model-internal uncertainty signals such as token logits are unavailable.", "In this work, we study prefix-level risk prediction for web agents using observable trajectory signals: given an evolving prefix, estimate whether the current execution remains on track or is tending toward failure.", "We derive two observable trajectory representations: Macro features summarize cross-step agent--environment behavior and feedback, while Micro features measure the consistency of intention, action, and anticipated state change through repeated black-box queries.", "Instead of inheriting the final result label, we label the first critical error that remains uncorrected in the observed continuation and is associated with final failure as a key-step boundary, preserving valid early prefixes of failed trajectories as on track."], "date_recherche": "03/09/2026"}], "resume_global": "Erreur Groq (401)"}], "cybersecuriter france": [{"date": "29/09/2026", "articles": [{"title": "IA et cybersécurité en 2026 : attaques plus rapides, défenses ...", "href": "https://www.riskintel.fr/articles/ia-et-cybersecurite-en-2026-attaques-plus-rapides-defenses-augmentees-ce-qui-change-vraiment", "score": 75, "resume_ollama": ["L'intelligence artificielle transforme déjà profondément la cybersécurité.", "Mais selon les experts, nous sommes seulement au début d'un changement beaucoup plus radical : automatisation des attaques, agents IA offensifs, défense augmentée, nouvelles vulnérabilités… le secteur entre dans une nouvelle ère.", "Dans cette émission consacrée à l'IA appliquée à la cybersécurité, Éric Antibi, directeur technique France chez Palo Alto Networks, revient sur les mutations en cours et explique pourquoi les entreprises doivent désormais penser leur cyberdéfense différemment.", "Eric Antibi / Photo : David Marmier\n\nL'un des chiffres les plus marquants évoqués pendant l'échange concerne l'accélération fulgurante des attaques."], "date_recherche": "29/09/2026"}, {"title": "Plan Cybersécurité-IA UE 2026 : 80 % de Phishing par IA", "href": "https://tech-insider.org/fr/plan-cybersecurite-ia-ue-2026/", "score": 55, "resume_ollama": ["Jul 31, 2026 · La Commission européenne publie son plan d'action cybersécurité-IA le 7 juillet 2026.", "ANSSI, ENISA, NIS2 : ce qui change pour la France et l'Europe."], "date_recherche": "29/09/2026"}], "resume_global": "Erreur Groq (404)"}]}:END_VEILLE_DATA-->
 
 </body></html>
