@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Veille IA - Devellopement Web</title>
+    <link>https://github.com/hoaraukilyanbts18/kilyanportfolio</link>
+    <description>Veille technologique automatisee sur : devellopement web</description>
+    <language>fr</language>
+    <lastBuildDate>Thu, 01 Oct 2026 04:14:27 +0000</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2026 04:14:27 +0000</pubDate>
+  <item>
+    <title>Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets</title>
+    <link>https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html</link>
+    <description>Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated operating system command injection flaw that can lead to remote code execution when Simple Network Management Protocol (SNMP) notifications are enabled and the optional zimbra-snmp package is installed. Exploitation of CVE-2026-73570 can be triggered by a specially crafted SMTP request (i.e., email against exposed Zimbra servers without requiring authentication or user interaction.</description>
+    <pubDate>Thu, 01 Oct 2026 04:14:27 +0000</pubDate>
+    <guid isPermaLink="true">https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html</guid>
+  </item>
+  </channel>
+</rss>
