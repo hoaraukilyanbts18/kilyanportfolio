@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Veille IA - Developpement Jeux</title>
+    <link>https://github.com/hoaraukilyanbts18/kilyanportfolio</link>
+    <description>Veille technologique automatisee sur : developpement jeux</description>
+    <language>fr</language>
+    <lastBuildDate>Tue, 06 Oct 2026 04:56:41 +0000</lastBuildDate>
+    <pubDate>Tue, 06 Oct 2026 04:56:41 +0000</pubDate>
+  <item>
+    <title>L’IA arrive dans le développement des jeux Capcom, mais pas ...</title>
+    <link>https://www.numerama.com/pop-culture/2346265-lia-arrive-dans-le-developpement-des-jeux-capcom-mais-pas-pour-remplacer-les-developpeurs.html</link>
+    <description>Nous générons pour vous un résumé de l’article grâce à une IA et nous le vérifions afin de nous assurer qu’il n’y ait aucune erreur, pour garantir l’authenticité de l’info. Capcom a annoncé vouloir faire évoluer progressivement son moteur maison pour faciliter le développement de ses prochains jeux, avec plusieurs outils d’intelligence artificielle destinés à automatiser certaines tâches. Au mieux de sa forme après avoir enchaîné les succès critiques et commerciaux, Capcom prépare déjà la suite de son RE Engine.</description>
+    <pubDate>Tue, 06 Oct 2026 04:56:41 +0000</pubDate>
+    <guid isPermaLink="true">https://www.numerama.com/pop-culture/2346265-lia-arrive-dans-le-developpement-des-jeux-capcom-mais-pas-pour-remplacer-les-developpeurs.html</guid>
+  </item>
+  <item>
+    <title>L'IA dans le développement de jeux vidéo : comment l ...</title>
+    <link>https://www.breakouttools.com/fr/ai-robotics/ai-in-video-game-development-how-artificial-intelligence-is-reshaping-the-industry/</link>
+    <description>Une étude de Google Cloud a révélé que 90 % des développeurs intègrent déjà l'IA à leur travail quotidien. Sur Steam, 7 818 titres ont déclaré utiliser l'IA pour la seule année 2025, soit une augmentation de 681 % par rapport à l'année précédente. L'IA dans le développement de jeux vidéo n'est pas une expérience marginale.</description>
+    <pubDate>Tue, 06 Oct 2026 04:56:41 +0000</pubDate>
+    <guid isPermaLink="true">https://www.breakouttools.com/fr/ai-robotics/ai-in-video-game-development-how-artificial-intelligence-is-reshaping-the-industry/</guid>
+  </item>
+  <item>
+    <title>IA pour le Développement de Jeux : Accélérer la Création</title>
+    <link>https://kodkodkod.studio/fr/blog/ai-video-game-development-fr</link>
+    <description>IA pour le Développement de Jeux : Accélérer la Création
+
+L’IA révolutionne le développement de jeux, permettant une création de contenu plus rapide, des tests plus intelligents et des expériences plus immersives. L’Évolution du Développement
+
+Développement Traditionnel
+
+Création assets manuelle
+
+Comportements scriptés
+
+Tests manuels
+
+Contenu fixe
+
+Cycles longs
+
+Développement Propulsé par l’IA
+
+Assets générés
+
+Comportements intelligents
+
+Tests automatisés
+
+Contenu dynamique
+
+Itération rapide
+
+Capacités IA Développement
+
+1. Génération d’Assets
+
+L’IA permet :
+
+Paramètres design + Guides de style → Génération contenu → Validation qualité → Assets production
+
+2.</description>
+    <pubDate>Tue, 06 Oct 2026 04:56:41 +0000</pubDate>
+    <guid isPermaLink="true">https://kodkodkod.studio/fr/blog/ai-video-game-development-fr</guid>
+  </item>
+  <item>
+    <title>Comment l’intelligence artificielle révolutionne les jeux vidéo</title>
+    <link>https://infomaxparis.com/fr/blog/comment-lintelligence-artificielle-revolutionne-les-jeux-video-n225</link>
+    <description>La réponse en bref L'IA transforme les jeux vidéo à tous les niveaux : graphismes photoréalistes (DLSS 5 de Nvidia), personnages non-joueurs capables de vraies conversations, mondes générés procéduralement, développement accéléré par des outils comme Muse de Microsoft. En 2026, 50 % des studios intègrent activement l'IA dans leur pipeline. Le marché IA gaming pèsera plus de 51 milliards de dollars d'ici 2033, contre 3 milliards en 2024.</description>
+    <pubDate>Tue, 06 Oct 2026 04:56:41 +0000</pubDate>
+    <guid isPermaLink="true">https://infomaxparis.com/fr/blog/comment-lintelligence-artificielle-revolutionne-les-jeux-video-n225</guid>
+  </item>
+  <item>
+    <title>Développement de jeu : tâches à déléguer à l’IA | Easton</title>
+    <link>https://eastondev.com/blog/fr/posts/ai/20260523-ai-game-dev-judgment/</link>
+    <description>Comment un développeur de jeux indépendant décide quelles tâches confier à l'IA et lesquelles garder sous son propre contrôle ? Ce guide propose un cadre de décision clair, du code à l'art en passant par les choix créatifs, pour construire une vision complète de la collaboration avec l'IA. Analyse précise : segmentez les données par pays (GEO) et par appareil pour cibler vos clients
+
+Coût minime : validez la proposition de votre MVP avec un petit budget
+
+Fini l'auto-satisfaction : du vrai feedback du marché plutôt que des suppositions subjectives
+
+Testez les arguments de vente de votre SaaS avec du vrai trafic sur Adsterra pour le prix d'un repas .</description>
+    <pubDate>Tue, 06 Oct 2026 04:56:41 +0000</pubDate>
+    <guid isPermaLink="true">https://eastondev.com/blog/fr/posts/ai/20260523-ai-game-dev-judgment/</guid>
+  </item>
+  </channel>
+</rss>
