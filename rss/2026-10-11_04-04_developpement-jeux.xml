@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Veille IA - Developpement Jeux</title>
+    <link>https://github.com/hoaraukilyanbts18/kilyanportfolio</link>
+    <description>Veille technologique automatisee sur : developpement jeux</description>
+    <language>fr</language>
+    <lastBuildDate>Sun, 11 Oct 2026 04:04:00 +0000</lastBuildDate>
+    <pubDate>Sun, 11 Oct 2026 04:04:00 +0000</pubDate>
+  <item>
+    <title>L'Intelligence Artificielle dans le Développement de Jeux ...</title>
+    <link>https://lesnews.ca/tech/jeux-videos/lintelligence-artificielle-dans-le-developpement-de-jeux-entre-passion-des-developpeurs-et-resistance-des-gamers-que-faire/</link>
+    <description>Aug 26, 2026 · Tim Sweeney est un homme de convictions. Le leader d’Epic Games, développeur de Fortnite, exprime fréquemment ses opinions sur l’industrie du jeu. Récemment, il a été interpellé sur le rôle de l’IA dans le développement de jeux, en réponse aux réticences d’une partie des joueurs.</description>
+    <pubDate>Sun, 11 Oct 2026 04:04:00 +0000</pubDate>
+    <guid isPermaLink="true">https://lesnews.ca/tech/jeux-videos/lintelligence-artificielle-dans-le-developpement-de-jeux-entre-passion-des-developpeurs-et-resistance-des-gamers-que-faire/</guid>
+  </item>
+  <item>
+    <title>Comment l'IA transforme le développement de jeux en 2026</title>
+    <link>https://www.nexusai-tech.com/fr/ai-insights/how-ai-is-changing-game-development-in-2026</link>
+    <description>Comment l'IA transforme le développement de jeux en 2026
+
+L'IA dépasse la simple génération de concepts pour remodeler le codage, la production 3D, l'animation, la voix, les tests et le comportement des personnages dans les mondes jouables. Brief IA L'IA devient une couche de développement tout au long du cycle de production de jeux, assistant dans le prototypage, le code, les mises en page d'interface, les ressources visuelles, l'animation, les dialogues, la localisation, les tests et les opérations en direct. L'IA en temps réel crée également des personnages capables d'interpréter l'intention du joueur, de consulter les connaissances du jeu et d'agir de manière contextuelle au lieu de suivre uniquement des arbres de dialogue fixes.</description>
+    <pubDate>Sun, 11 Oct 2026 04:04:00 +0000</pubDate>
+    <guid isPermaLink="true">https://www.nexusai-tech.com/fr/ai-insights/how-ai-is-changing-game-development-in-2026</guid>
+  </item>
+  <item>
+    <title>Exploiter l'IA dans le Développement de Jeux : Outils ...</title>
+    <link>https://aitoolgo.com/learning/detail/exploiter-l-ia-dans-le-développement-de-jeux-outils-techniques-et</link>
+    <description>Exploiter l'IA dans le Développement de Jeux : Outils, Techniques et Tendances Futures In-depth discussion Technical but accessible 0 0 21
+
+Cet article explore l'application de l'IA dans le développement de jeux, couvrant le comportement des PNJ, la génération de contenu procédural et la difficulté adaptative. Il présente des outils clés comme Unity ML-Agents et les outils d'IA d'Unreal Engine, et inclut des guides pratiques et des études de cas pour aider les développeurs à créer des expériences de jeu immersives. L'article aborde également les tendances futures de l'IA dans le secteur du jeu.</description>
+    <pubDate>Sun, 11 Oct 2026 04:04:00 +0000</pubDate>
+    <guid isPermaLink="true">https://aitoolgo.com/learning/detail/exploiter-l-ia-dans-le-développement-de-jeux-outils-techniques-et</guid>
+  </item>
+  <item>
+    <title>Jeux avec IA : Le Guide Complet (2026) - seeles.ai</title>
+    <link>https://www.seeles.ai/resources/blogs/fr/games-with-ai-complete-guide-2026</link>
+    <description>L’intelligence artificielle est en train de transformer fondamentalement la façon dont les jeux sont créés, joués et expérimentés. En 2026, les jeux avec IA vont de PNJ adaptatifs qui apprennent du comportement des joueurs à des mondes de jeu entièrement générés par l’IA. Ce guide explore l’ensemble du paysage de l’IA dans le jeu vidéo — ce qu’elle signifie, comment elle fonctionne, et comment vous pouvez créer vous-même des jeux alimentés par l’IA.</description>
+    <pubDate>Sun, 11 Oct 2026 04:04:00 +0000</pubDate>
+    <guid isPermaLink="true">https://www.seeles.ai/resources/blogs/fr/games-with-ai-complete-guide-2026</guid>
+  </item>
+  <item>
+    <title>Créateur de jeux IA : Comment l'IA crée des jeux en 2026</title>
+    <link>https://www.seeles.ai/resources/blogs/fr/ai-game-maker-2026</link>
+    <description>Un Créateur de jeux IA est une plateforme qui utilise l’intelligence artificielle pour générer des jeux jouables à partir de descriptions en langage naturel. Au lieu de coder manuellement des milliers de lignes ou de passer des semaines dans des moteurs de jeu traditionnels, les créateurs IA interprètent les prompts textuels et génèrent automatiquement du code, des éléments et des mécaniques en quelques minutes. Chez SEELE, nous avons construit notre plateforme alimentée par l’IA pour supporter la création de jeux 2D et 3D via des interfaces conversationnelles.</description>
+    <pubDate>Sun, 11 Oct 2026 04:04:00 +0000</pubDate>
+    <guid isPermaLink="true">https://www.seeles.ai/resources/blogs/fr/ai-game-maker-2026</guid>
+  </item>
+  </channel>
+</rss>
